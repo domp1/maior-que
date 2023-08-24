@@ -1,0 +1,11 @@
+from google.colab import output
+a=int(input("Digite o primeiro número: "))
+output.clear()
+b=int(input("Digite o segundo número: "))
+output.clear()
+if a>b:
+  print(a," maior que ",b)
+elif a<b:
+  print(b," maior que ",a)
+else:
+  print(a," e ",b," são iguais. ")
